@@ -77,7 +77,7 @@ int main()
 
     printf("Earth gravity weight: ");
     scanf("%d", &user_weight);
-    printf("Choose a planet to fight on (1-%d): ", line_count);
+    printf("Choose a planet to fight on (1-%d): ", line_count - 1);
     scanf("%d", &planet);
 
     // Validate the user input
