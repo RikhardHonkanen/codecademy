@@ -14,7 +14,7 @@ void add_days_to_date(int *mm, int *dd, int *yy, int days_left_to_add)
 
     while (days_left_to_add > 0)
     {
-        days_left_in_month = days_in_month[*mm] - *mm;
+        days_left_in_month = days_in_month[*mm] - *dd;
         if (*mm == 2 && is_leap_year(*yy))
         {
             days_left_in_month++;
