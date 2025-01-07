@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+#include <windows.h>
 
 // Structures section
 struct Race
@@ -28,24 +29,34 @@ void printIntro(void)
 
 void printCountDown(void)
 {
+    Sleep(3000);
     printf("Racers Ready! In...\n");
+    Sleep(1000);
     printf("5\n");
+    Sleep(1000);
     printf("4\n");
+    Sleep(1000);
     printf("3\n");
+    Sleep(1000);
     printf("2\n");
+    Sleep(1000);
     printf("1\n");
+    Sleep(1500);
     printf("Race!\n\n");
 };
 
 void printFirstPlaceAfterLap(struct Race race)
 {
+    Sleep(1500);
     printf("After lap number %d:\n", race.currentLap);
     printf("First Place Is: %s in the %s race car!\n\n", race.firstPlaceDriverName, race.firstPlaceRaceCarColor);
 };
 
 void printCongratulation(struct Race race)
 {
+    Sleep(1500);
     printf("Let's all congratulate %s in the %s race car for an amazing performance.\n", race.firstPlaceDriverName, race.firstPlaceRaceCarColor);
+    Sleep(500);
     printf("It truly was a great race and everybody have a goodnight!\n");
 };
 
