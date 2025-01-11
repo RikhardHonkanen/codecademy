@@ -5,6 +5,7 @@
 #define MAX_LINES 8        // Maximum number of lines to read
 #define MAX_LINE_LENGTH 64 // Maximum length of each line
 
+// Program written at the beginning of C course with much assistance from ChatGPT
 int main()
 {
     FILE *file = fopen("data.txt", "r");
