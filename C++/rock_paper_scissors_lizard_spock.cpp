@@ -39,7 +39,7 @@ int main()
     std::cin >> user;
 
     std::cout << "CPU chose ";
-    if (user == 1)
+    if (user == 1) // rock
     {
         if (computer == 1)
         {
@@ -62,7 +62,7 @@ int main()
             std::cout << "spock, you lose! " << std::endl;
         }
     }
-    else if (user == 2)
+    else if (user == 2) // paper
     {
         if (computer == 1)
         {
@@ -85,7 +85,7 @@ int main()
             std::cout << "spock, you win! " << std::endl;
         }
     }
-    else if (user == 3)
+    else if (user == 3) // scissors
     {
         if (computer == 1)
         {
@@ -108,7 +108,7 @@ int main()
             std::cout << "spock, you lose! " << std::endl;
         }
     }
-    else if (user == 4)
+    else if (user == 4) // lizard
     {
         if (computer == 1)
         {
@@ -131,7 +131,7 @@ int main()
             std::cout << "spock, you win! " << std::endl;
         }
     }
-    else if (user == 5)
+    else if (user == 5) // spock
     {
         if (computer == 1)
         {
