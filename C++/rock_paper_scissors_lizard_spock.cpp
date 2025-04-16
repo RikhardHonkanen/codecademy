@@ -22,7 +22,7 @@ int main()
 {
     // Live long and prosper
     srand(time(NULL));
-    int computer = rand() % 3 + 1;
+    int computer = rand() % 5 + 1;
     int user = 0;
 
     std::cout << "====================" << std::endl;
